@@ -405,20 +405,21 @@ section #text {
     }
 
     #sea1 {
-        top: -1%;
-        width: 30%;
-        left:-5%;
+        top: 0%;
+        width: 27%;
+        left:-6%;
         
     }
 
     #sea2 {
         top: 25%;
         width: 28%;
+        right: -9%;
     }
 
     #sea3 {
         top: 42%;
-        width: 27%;
+        width: 25%;
     }
 
     #sea4 {
