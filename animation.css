@@ -165,7 +165,7 @@
 
 /* Remove background color for the third social media icon */
 .wrapper .social-media:nth-child(3) .icon {
-	background: none; /* Remove background color */
+	background: blue; /* Remove background color */
 }
 
 .wrapper .social-media span {
@@ -183,6 +183,10 @@
 .wrapper .social-media:nth-child(2) span {
 	color: #0072b1;
 }
+.wrapper .social-media:nth-child(3) span {
+	color: blue;
+}
+
 
 /* To prevent animation in mobile view */
 @media screen and (max-width: 500px) {
