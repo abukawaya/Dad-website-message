@@ -52,9 +52,8 @@ function openlink(x) {
         window.open("https://www.linkedin.com/in/mohammed-abdelmutalab-3354a4291/", "_blank");
     }
     if (x == 3) {
-        window.open("https://www.facebook.com/profile.php?id=61554988694661", "_blank");
-    }
-    if (x == 4) {
         window.open("https://026fcba9-425e-4e0c-bb5a-60fa5d2d69a4-00-1jq84yvn3qq41.picard.replit.dev/", "_blank");
     }
+    
+    
 }
