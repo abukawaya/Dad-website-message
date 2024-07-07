@@ -168,12 +168,12 @@
 }
 
 .wrapper .social-media:nth-child(3) .icon {
-	background: gray;
+/* 	background: gray; */
 }
 
-.wrapper .social-media:nth-child(4) .icon {
+/* .wrapper .social-media:nth-child(4) .icon {
 	background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
-}
+} */
 
 .wrapper .social-media span {
 	font-size: 20px;
@@ -191,14 +191,14 @@
 	color: #0072b1;
 }
 
-.wrapper .social-media:nth-child(3) span {
+/* .wrapper .social-media:nth-child(3) span {
 	color: gray;
 }
 
 .wrapper .social-media:nth-child(4) span {
 	color: #0d4db4;
 }
-
+ */
 /* To prevent animation in mobile view */
 @media screen and (max-width: 500px) {
 	.wrapper .social-media:hover {
