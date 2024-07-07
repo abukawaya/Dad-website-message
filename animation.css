@@ -94,10 +94,7 @@
 	.bubbles img:nth-child(7) {
 		animation-delay: 13s;
 	}
-
 }
-
-
 
 /* Code for the Animation in Footer .... Social Media Icons */
 
@@ -125,7 +122,6 @@
 	width: 50px;
 	margin: 0 5px;
 	overflow: hidden;
-	background: #fff;
 	border-radius: 50px;
 	cursor: pointer;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
@@ -167,13 +163,10 @@
 	background: #0072b1;
 }
 
+/* Remove background color for the third social media icon */
 .wrapper .social-media:nth-child(3) .icon {
-/* 	background: gray; */
+	background: none; /* Remove background color */
 }
-
-/* .wrapper .social-media:nth-child(4) .icon {
-	background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
-} */
 
 .wrapper .social-media span {
 	font-size: 20px;
@@ -191,14 +184,6 @@
 	color: #0072b1;
 }
 
-/* .wrapper .social-media:nth-child(3) span {
-	color: gray;
-}
-
-.wrapper .social-media:nth-child(4) span {
-	color: #0d4db4;
-}
- */
 /* To prevent animation in mobile view */
 @media screen and (max-width: 500px) {
 	.wrapper .social-media:hover {
